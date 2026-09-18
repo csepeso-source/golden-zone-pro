@@ -1,25 +1,16 @@
-# 🎈 Blank app template
+EGY FÁJL: szogletlab.py
+EGY NYELV: Python
 
-A simple Streamlit app template for you to modify!
+Tartalom:
+  Rész 1: V17 Lambda Core     → Layer 1
+  Rész 2: Feature Engineering → Layer 2 Build
+  Rész 3: Modell Tanítás      → Layer 2 Train
+  Rész 4: Predikció           → Layer 2 Predict
+  Rész 5: Odds Feldolgozás    → Layer 3
+  Rész 6: Orchestrator        → Összekötés
+  Rész 7: Run                 → Napi belépési pont
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+Futtatás:
+  python szogletlab.py build
+  python szogletlab.py train
+  python szogletlab.py run
